@@ -10,7 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         background: "var(--background)",
-        fontBlack: "var(--font-black)",
+        font_black: "var(--font-black)",
+        yellow_brand: "var(--yellow-brand)",
       },
       container: {
         padding: "1rem",
@@ -24,6 +25,9 @@ const config: Config = {
           '3xl': '1372px',
         }
       },
+      gridTemplateColumns: {
+        'footer': '200px minmax(320px, 65%)',
+      }
     },
   },
   plugins: [],
