@@ -1,17 +1,17 @@
-import React from 'react'
-import Header from './header'
-import Footer from './footer'
+import React from "react";
+import Header from "./header";
+import Footer from "./footer";
 
 function Layout({ children }: { children: React.ReactNode }) {
-    return (
-        <>
-            <Header />
+  return (
+    <>
+      <Header />
 
-            {children}
+      {children}
 
-            <Footer />
-        </>
-    )
+      <Footer />
+    </>
+  );
 }
 
-export default Layout
+export default Layout;

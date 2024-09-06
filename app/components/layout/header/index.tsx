@@ -1,17 +1,15 @@
-import React from 'react'
-import CompanyLogo from './CompanyLogo'
-import Navbar from './Navbar'
+import React from "react";
+import CompanyLogo from "./CompanyLogo";
+import Navbar from "./Navbar";
 
 function Header() {
-    return (
-        <header>
+  return (
+    <header>
+      <CompanyLogo />
 
-            <CompanyLogo />
-
-            <Navbar />
-
-        </header>
-    )
+      <Navbar />
+    </header>
+  );
 }
 
-export default Header
+export default Header;
