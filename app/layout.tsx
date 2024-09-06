@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import localFont from "next/font/local"
 import "./globals.css";
 import Layout from "./components/layout";
 
-const inter = Inter({ subsets: ["latin"] });
+const midPointFont = localFont({
+  src: "fonts/MintType-MidpointProRegular.woff2",
+  display: "auto"
+})
 
 export const metadata: Metadata = {
   title: "RoboMeet | Welcome",
@@ -17,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={midPointFont.className}>
         <Layout>
           {children}
         </Layout>
