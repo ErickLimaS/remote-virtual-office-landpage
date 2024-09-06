@@ -9,7 +9,7 @@ import LinkedinSvg from "@/public/assets/svgs/linkedin.svg";
 function CompanyDetails() {
   return (
     <div className="flex flex-col gap-y-2">
-      <div className="relative">
+      <div className="relative max-md:m-auto">
         <Link href={"/"} className="relative flex w-[159px] h-[65px] max-sm:scale-90">
           <Image src={"/imgs/logo.png"} alt="Company Logo" fill />
         </Link>
@@ -28,7 +28,7 @@ function CompanyDetails() {
         Terms & Privacy
       </Link>
 
-      <div className="flex gap-x-6 mt-5 max-md:justify-center">
+      <div className="flex gap-x-6 mt-5 mb-2 max-md:justify-center">
         <Link href={"#"} aria-label="Twitter / X">
           <TwitterSvg className="fill-yellow_brand hover:fill-[rgba(0,0,0,.6)] transition-colors scale-150" />
         </Link>
