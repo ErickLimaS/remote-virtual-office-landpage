@@ -4,9 +4,9 @@ import React from "react";
 
 function CompanyLogo() {
   return (
-    <div>
-      <Link href={"/"}>
-        <Image src={""} alt="Company Logo" />
+    <div className="relative">
+      <Link href={"/"} className="flex w-[159px] h-[65px] max-sm:scale-90">
+        <Image src={"/imgs/logo.png"} alt="Company Logo" fill />
       </Link>
     </div>
   );
