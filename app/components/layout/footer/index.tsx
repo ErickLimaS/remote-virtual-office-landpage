@@ -4,7 +4,7 @@ import WebsiteNagivationLinks from "./WebsiteNavigationLinks";
 
 function Footer() {
   return (
-    <footer className="border-t-[1px] border-[#767676]">
+    <footer className="border-t-2 border-[#767676]">
       <div className="container pt-20 pb-8 justify-between max-md:flex max-md:flex-col-reverse max-md:items-center max-md:mx-auto md:grid md:grid-cols-footer gap-x-12">
         <CompanyDetails />
 

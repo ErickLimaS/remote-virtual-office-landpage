@@ -5,7 +5,7 @@ import SignUpButton from "../../buttons/SignUpButton";
 
 function Header() {
   return (
-    <header className="sticky z-10 top-0 bg-background border-b-[1px] border-[#767676]">
+    <header className="sticky z-10 top-0 bg-background border-b-2 border-[#767676]">
       <div className="container flex justify-between items-center py-6 sm:max-lg:gap-x-10">
         <CompanyLogo />
 
