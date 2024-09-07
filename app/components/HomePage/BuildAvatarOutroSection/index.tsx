@@ -5,7 +5,6 @@ function BuildAvatarOutroSection() {
   return (
     <OutroSectionContainer
       invertGrid={true}
-      additionalMarginOnSection={true}
       imgSrc="/imgs/homepage/build-your-avatar.png"
       imgAlt="Build your avatar"
       imgAspectRatio="aspect-[5/4]"
