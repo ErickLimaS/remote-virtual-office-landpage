@@ -1,11 +1,12 @@
 import BuildAvatarOutroSection from "./components/HomePage/BuildAvatarOutroSection";
 import ClickToTalkOutroSection from "./components/HomePage/ClickToTalkOutroSection";
 import HeroSection from "./components/HomePage/HeroSection";
+import PageFooter from "./components/HomePage/PageFooter";
 import VideoSupportOutroSection from "./components/HomePage/VideoSupportOutroSection";
 
 export default function Home() {
   return (
-    <main className="container my-20">
+    <main className="container mt-20">
       <HeroSection />
 
       <ClickToTalkOutroSection />
@@ -13,6 +14,8 @@ export default function Home() {
       <BuildAvatarOutroSection />
 
       <VideoSupportOutroSection />
+
+      <PageFooter />
     </main>
   );
 }
