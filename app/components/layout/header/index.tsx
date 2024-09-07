@@ -1,7 +1,7 @@
 import React from "react";
 import CompanyLogo from "./CompanyLogo";
 import Navbar from "./Navbar";
-import SignUpButton from "./SignUpButton";
+import SignUpButton from "../../buttons/SignUpButton";
 
 function Header() {
   return (
