@@ -1,5 +1,7 @@
+"use client";
 import Image from "next/image";
 import React from "react";
+import { motion } from "framer-motion";
 
 function OutroSectionContainer({
   imgSrc,
@@ -19,7 +21,16 @@ function OutroSectionContainer({
   invertGrid?: boolean;
 }) {
   return (
-    <section
+    <motion.section
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{
+        opacity: 1,
+        y: 0,
+        transition: {
+          type: "spring",
+        },
+      }}
+      viewport={{ once: true, amount: 0.45 }}
       className={
         "grid md:grid-cols-2 gap-x-4 gap-y-8 lg:gap-24 mt-20 pt-20 border-t-2 border-[#767676] " +
         (additionalMarginOnSection == true
@@ -54,7 +65,7 @@ function OutroSectionContainer({
           ))}
         </ul>
       </div>
-    </section>
+    </motion.section>
   );
 }
 
