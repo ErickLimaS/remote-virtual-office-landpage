@@ -10,8 +10,16 @@ function CompanyDetails() {
   return (
     <div className="flex flex-col gap-y-2">
       <div className="relative max-md:m-auto">
-        <Link href={"/"} className="relative flex w-[159px] h-[65px] max-sm:scale-90">
-          <Image src={"/imgs/logo.png"} alt="Company Logo" fill />
+        <Link
+          href={"/"}
+          className="relative flex w-[159px] h-[65px] max-sm:scale-90"
+        >
+          <Image
+            src={"/imgs/logo-no-bcg.png"}
+            alt="Company Logo"
+            fill
+            quality={100}
+          />
         </Link>
       </div>
 
