@@ -17,8 +17,8 @@ function WebsiteNagivationLinks() {
         title="TOOLS"
         items={[
           { name: "Revitalize", url: "" },
-          { name: "US Rernote Trends", url: "" },
-          { name: "PH Leadertward", url: "" },
+          { name: "US Remote Trends", url: "" },
+          { name: "PH Leaderboard", url: "" },
         ]}
       />
       <List
