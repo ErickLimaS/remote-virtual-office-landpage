@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Layout from "./components/layout";
+import { Analytics } from "@vercel/analytics/react";
 
 const midPointFont = localFont({
   src: "fonts/MintType-MidpointProRegular.woff2",
@@ -22,6 +23,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={midPointFont.className}>
+        <Analytics />
+
         <Layout>{children}</Layout>
       </body>
     </html>
