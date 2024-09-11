@@ -14,8 +14,8 @@ function HeroSection() {
           Virtual office for remote teams
         </p>
 
-        <div className="max-sm:flex max-sm:flex-col">
-          <SignUpButton />
+        <div className="relative max-sm:flex max-sm:flex-col">
+          <SignUpButton modalPosition="left"/>
         </div>
       </div>
 

@@ -25,7 +25,7 @@ function MobileMenuButton() {
           <motion.div
             data-disabled-scroll={true}
             onClick={() => setIsMenuOpen(false)}
-            className="absolute z-10 h-screen w-screen top-0 left-0 bg-[rgba(0,0,0,.5)]"
+            className="absolute z-20 h-screen w-screen top-0 left-0 bg-[rgba(0,0,0,.5)]"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
